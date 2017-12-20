@@ -1,5 +1,7 @@
 <snippet>
     <content><![CDATA[
+namespace YourFooBundle\Controller;
+
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class ${1:Default}Controller extends Controller

@@ -2,7 +2,7 @@
     <content><![CDATA[
 /**
  * @ORM\ManyToOne(targetEntity="$3")
- * @ORM\JoinColumn(name="${5:${1/([[:upper:]]+)/(?1_\l$1:)/g}}", referencedColumnName="${4:id}"$6)
+ * @ORM\JoinColumn(nullable=false)
  */
  ${2:private} \$${1:$SELECTION};
 ]]></content>
